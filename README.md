@@ -1,4 +1,4 @@
-# Oryx Video-ChatGPT :movie_camera: :speech_balloon:
+# Video-ChatGPT :movie_camera: :speech_balloon:
 
 <p align="center">
     <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
