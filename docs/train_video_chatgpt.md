@@ -23,8 +23,7 @@ Alternatively you can download the ready LLaVA-Lightening-7B weights from [mmaaz
 
 ## Prepare Dataset
 
-**1. Download our 100K video instruction dataset from** 
-[this download link](https://mbzuaiac-my.sharepoint.com/:u:/g/personal/hanoona_bangalath_mbzuai_ac_ae/EWxYslvDeX1PijKWM_WxTkkBDXDDD350YnUQOkbcL8V7Xg?e=Lq9itD).
+Let me know I will provide the features
 
 
 **2. Convert the downloaded Json into the required format for training,**
