@@ -53,7 +53,6 @@ python scripts/save_spatio_temporal_clip_features.py \
 ```
 The script will generate the spatiotempral features for each video and 
 save one pickle file per video in directory specified by `--clip_feat_path` argemunt. 
-Alternatively, you can download the pre-computed spatiotemporal CLIP features from [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/hanoona_bangalath_mbzuai_ac_ae/EnLRDehrr8lGqHpC5w1zZ9QBnsiVffYy5vCv8Hl14deRcg?e=Ul5DUE).
 
 ## Train Video-ChatGPT
 
