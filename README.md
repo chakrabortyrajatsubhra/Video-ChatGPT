@@ -6,75 +6,7 @@
 
 ### Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models
 
-#### [Muhammad Maaz](https://www.muhammadmaaz.com)* , [Hanoona Rasheed](https://www.hanoonarasheed.com/)* , [Salman Khan](https://salman-h-khan.github.io/) and [Fahad Khan](https://sites.google.com/view/fahadkhans/home)
-\* Equally contributing first authors
 
-#### **Mohamed bin Zayed University of Artificial Intelligence**
-
----
-#### **Video-based Generative Performance Benchmarking**
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/video-chatgpt-towards-detailed-video/video-based-generative-performance)](https://paperswithcode.com/sota/video-based-generative-performance?p=video-chatgpt-towards-detailed-video)
-
-
-#### **Zeroshot Question-Answer Evaluation**
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/video-chatgpt-towards-detailed-video/zeroshot-video-question-answer-on-msvd-qa)](https://paperswithcode.com/sota/zeroshot-video-question-answer-on-msvd-qa?p=video-chatgpt-towards-detailed-video)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/video-chatgpt-towards-detailed-video/zeroshot-video-question-answer-on-msrvtt-qa)](https://paperswithcode.com/sota/zeroshot-video-question-answer-on-msrvtt-qa?p=video-chatgpt-towards-detailed-video)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/video-chatgpt-towards-detailed-video/zeroshot-video-question-answer-on-tgif-qa)](https://paperswithcode.com/sota/zeroshot-video-question-answer-on-tgif-qa?p=video-chatgpt-towards-detailed-video)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/video-chatgpt-towards-detailed-video/zeroshot-video-question-answer-on-activitynet)](https://paperswithcode.com/sota/zeroshot-video-question-answer-on-activitynet?p=video-chatgpt-towards-detailed-video)
-
-
----
-
-| Demo | Paper | Demo Clips | Offline Demo | Training | Video Instruction Data | Quantitative Evaluation | Qualitative Analysis |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| [![Demo](https://img.shields.io/badge/-Try%20it%20out-green)](https://www.ival-mbzuai.com/video-chatgpt) [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/fRhm---HWJY) | [![paper](https://img.shields.io/badge/Paper-<COLOR>.svg)](https://arxiv.org/abs/2306.05424) | [![DemoClip-1](https://img.shields.io/badge/-DemoClip1-blue)](https://youtu.be/R8qW5EJD2-k) [![DemoClip-2](https://img.shields.io/badge/-DemoClip2-yellow)](https://youtu.be/ujCxqxMXLVw) [![DemoClip-3](https://img.shields.io/badge/-DemoClip3-violet)](https://youtu.be/97IWKMsbZ80) [![DemoClip-4](https://img.shields.io/badge/-DemoClip4-orange)](https://youtu.be/ZyJZfTg_Ttc) | [Offline Demo](#running-demo-offline-cd) | [Training](#training-train) | [Video Instruction Dataset](#video-instruction-dataset-open_file_folder) | [Quantitative Evaluation](#quantitative-evaluation-bar_chart) | [Qualitative Analysis](#qualitative-analysis-mag) |
-
----
-
-## :loudspeaker: Latest Updates
-- **Sep-30**: Our VideoInstruct100K dataset can be downloaded from [HuggingFace/VideoInstruct100K](https://huggingface.co/datasets/MBZUAI/VideoInstruct-100K). :fire::fire:
-- **Jul-15**: Our quantitative evaluation benchmark for Video-based Conversational Models now has its own dedicated website: [https://mbzuai-oryx.github.io/Video-ChatGPT](https://mbzuai-oryx.github.io/Video-ChatGPT). :fire::fire:
-- **Jun-28**: Updated GitHub readme featuring benchmark comparisons of Video-ChatGPT against recent models - Video Chat, Video LLaMA, and LLaMA Adapter. Amid these advanced conversational models, Video-ChatGPT continues to deliver state-of-the-art performance.:fire::fire:
-- **Jun-08** : Released the training code, offline demo, instructional data and technical report. 
-All the resources including models, datasets and extracted features are available 
-[here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/hanoona_bangalath_mbzuai_ac_ae/Eudc2kLOX4hIuCenDmFe-UIBthkBQKpF9p6KrY2q_s9hwQ?e=zHKbTX). :fire::fire:
-- **May-21** : Video-ChatGPT: demo released.
-
----
-
-## Online Demo :computer:
-
-:fire::fire: **You can try our demo using the provided examples or by uploading your own videos [HERE](https://www.ival-mbzuai.com/video-chatgpt).** :fire::fire:
-
-:fire::fire: **Or click the image to try the demo!** :fire::fire:
-[![demo](docs/images/demo_icon.png)](https://www.ival-mbzuai.com/video-chatgpt)
-You can access all the videos we demonstrate on [here](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/hanoona_bangalath_mbzuai_ac_ae/EqrZjHG0KoFNhx6nDcCmFU0BtRqWyg8_zUgzvNQDY5t_3Q?e=AoEdnI).
-
----
-
-## Video-ChatGPT Overview :bulb:
-
-Video-ChatGPT is a video conversation model capable of generating meaningful conversation about videos. 
-It combines the capabilities of LLMs with a pretrained visual encoder adapted for spatiotemporal video representation.
-
-<p align="center">
-  <img src="docs/images/Video-ChatGPT.gif" alt="Video-ChatGPT Architectural Overview">
-</p>
-
----
-
-## Contributions :trophy:
-
-- We introduce 100K high-quality video-instruction pairs together with a novel annotation framework that is scalable and generates a diverse range of video-specific instruction sets of high-quality.
-- We develop the first quantitative video conversation evaluation framework for benchmarking video conversation models.
-- Unique multimodal (vision-language) capability combining video understanding and language generation that is comprehensively 
-evaluated using quantitative and qualitiative comparisons on video reasoning, creativitiy, spatial and temporal understanding, and action recognition tasks.
-
-<p align="center">
-  <img src="docs/images/hightlights_video_chatgpt.png" alt="Contributions">
-</p>
-
----
 
 ## Installation :wrench:
 
